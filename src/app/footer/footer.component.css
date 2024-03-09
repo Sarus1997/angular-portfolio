@@ -1,0 +1,24 @@
+.footer {
+  background-color: #010101;
+}
+
+.text-center {
+  color: #3498db;
+  margin: 0;
+  font-size: 24px;
+  cursor: pointer;
+  animation: colorChange 5s infinite;
+  transition: transform 0.5s;
+}
+
+
+@keyframes colorChange {
+  0% { color: #3498db; } /* สีน้ำเงิน */
+  50% { color: #e74c3c; } /* สีแดง */
+  100% { color: #2ecc71; } /* สีเขียว */
+}
+
+
+.p-2:hover {
+  transform: rotate(360deg);
+}
